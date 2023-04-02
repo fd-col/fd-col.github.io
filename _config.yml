@@ -20,7 +20,7 @@ timezone: Europe/Rome
 
 title: Federico Colleluori # the main title
 
-tagline: 22enne laureato in Ingegneria Informatica e dell'Automazione # it will display as the sub-title
+tagline: live better, live longer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,7 +29,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://fd-col.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: fd-col # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -37,15 +37,14 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Federico Colleluori
+  email: federicocolleluori@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/fd-col # change to your github homepage
+    - https://www.facebook.com/federico.colleluori7
+    - https://it.linkedin.com/in/federico-colleluori-8113b81bb/en?trk=public_post_feed-actor-image
 
 google_site_verification: # fill in to your verification string
 
