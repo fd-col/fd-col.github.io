@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://assets.nicepagecdn.com/2da4b6fc/4385021/images/fede.JPG
+avatar: https://scontent.fgva1-1.fna.fbcdn.net/v/t39.30808-1/335927714_744141563836346_2927410311571263880_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=h83dt78QD-wAX_JwZDZ&_nc_ht=scontent.fgva1-1.fna&oh=00_AfDZ_mmh-pYgCUyDUmedoTlRkxxK1raeX8BozrhbznUqZg&oe=642F2D9C
 
 # boolean type, the global switch for TOC in posts.
 toc: true
