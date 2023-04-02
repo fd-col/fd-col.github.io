@@ -29,24 +29,20 @@ description: >- # used by seo meta and the atom feed
 url: "https://fd-col.github.io"
 
 github:
-  username: github_username # change to your github username
-
-twitter:
-  username: twitter_username # change to your twitter username
+  username: fd-col # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: federico colleluori
+  email: federicocolleluori@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
+    - https://github.com/fd-col # change to your github homepage
+    - https://www.linkedin.com/in/federico-colleluori-8113b81bb/
+    - https://www.facebook.com/federico.colleluori.7
+    - https://www.instagram.com/federi_10
+    
 google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
@@ -80,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://assets.nicepagecdn.com/2da4b6fc/4385021/images/fede.JPG
+avatar: https://scontent.fgva1-1.fna.fbcdn.net/v/t39.30808-1/335927714_744141563836346_2927410311571263880_n.jpg?stp=dst-jpg_p480x480&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=h83dt78QD-wAX_JwZDZ&_nc_ht=scontent.fgva1-1.fna&oh=00_AfC6gpHOejenH60YiLaSA6BDTVcTNyjQ483izKsPg45jCw&oe=642F2D9C
 
 # boolean type, the global switch for TOC in posts.
 toc: true
