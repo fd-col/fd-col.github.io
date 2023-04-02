@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 
+avatar: https://github.com/fd-col/fd-col.github.io/blob/main/fb_profile.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
