@@ -38,10 +38,10 @@ social:
   email: federicocolleluori@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/username
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/fd-col # change to your github homepage
-    - https://www.facebook.com/federico.colleluori7
+    - https://github.com/username # change to your github homepage
+    - https://www.facebook.com/username
    
 
 google_site_verification: # fill in to your verification string
