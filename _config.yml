@@ -40,7 +40,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/username
     - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/fd-col # change to your github homepage
     - https://www.facebook.com/username
    
 
@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/fd-col/fd-col.github.io/blob/main/assets/img/fb_profile.jpg
+avatar: https://github.com/fd-col/fd-col.github.io/blob/main/assets/img/fb_profile.jpg?raw=true
 
 # boolean type, the global switch for TOC in posts.
 toc: true
