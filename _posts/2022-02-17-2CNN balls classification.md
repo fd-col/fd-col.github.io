@@ -1,5 +1,7 @@
 ---
-tags: [CNN]
+tags: [CNN] 
+      [Python]
+      [Google Colab]
 ---
 
 <h1><a href="https://github.com/fd-col/Neural-network-balls-clasificacion">2CNN balls classification</a></h1>
