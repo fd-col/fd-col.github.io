@@ -1,3 +1,7 @@
+---
+tags: [Android Studio, Kotlin, Flutter]
+---
+
 <h1><a href="https://github.com/fd-col/WIP-Work-is-Progress-/">WIP - Work is Progress</a></h1>
 <p>Productivness app with pixelled graphic in android and a partial implementation in flutter.</p>
 
