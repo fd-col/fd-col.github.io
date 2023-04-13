@@ -1,3 +1,7 @@
+---
+tags: [Python]
+---
+
 ## Resort Managment Software
 The software we propose is completely written in python language using PyQt5 libraries and it follow the MVC pattern.
 
