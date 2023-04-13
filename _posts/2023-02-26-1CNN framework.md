@@ -1,3 +1,7 @@
+---
+tags: [CNN]
+---
+
 # Framework for industrial sites
 
 
