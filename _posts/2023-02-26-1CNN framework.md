@@ -1,5 +1,5 @@
 ---
-tags: [CNN]
+tags: [CNN,Python,Google Colab,QGIS]
 ---
 
 # Framework for industrial sites
