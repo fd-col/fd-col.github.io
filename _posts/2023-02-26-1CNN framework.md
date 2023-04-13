@@ -1,5 +1,6 @@
-<h1><a>Framework for industrial sites</a></h1>
-<p>The framework created is responsible for automating the tasks of monitoring and surveillance of safety conditions 
+# Framework for industrial sites
+
+  The framework created is responsible for automating the tasks of monitoring and surveillance of safety conditions 
   within an Oil & Gas construction site. Drones are the tool used for collecting photos by capturing the current state 
   of work at a certain moment over time. Through the use of QGIS software and specific python classes, these images are 
   then processed in the pre-processing phase. It aims to create DSM profiles, that is a digital model of the surface relative 
@@ -17,4 +18,4 @@
   Meanwhile, the results concerning the last case study differ from the previous two because the models are generated through 
   datasets related to a construction site, and then tested on datasets from another construction site; Here it has been experienced
   that a substantial increase (double or more) of the real data provided to the model for training, for example, from merging the 
-  datasets of two flights, brings an increase in overall predictions accuracy with less imbalance between the minority classes.</p>
+  datasets of two flights, brings an increase in overall predictions accuracy with less imbalance between the minority classes.
