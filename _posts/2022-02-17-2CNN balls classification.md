@@ -1,4 +1,4 @@
-<h1>2CNN balls classification</h1>
+<h1><a href="https://github.com/fd-col/Neural-network-balls-clasificacion">2CNN balls classification</a></h1>
 <h2>Introduction</h2>
 <p>The goal of this study was to create a simple CNN (Convolutional Neural Network) that could identify a specific dataset. </p>
 <hr>
