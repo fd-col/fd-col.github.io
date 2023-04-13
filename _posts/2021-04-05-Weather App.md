@@ -173,15 +173,15 @@ La chiamata 8 ha il seguente body (sempre in JSON):
 
 ## Use Case Diagram
 
-![alt text](https://github.com/fd-col/prog-colleluori-camplese/blob/main/USE%20CASE%20DIAGRAM.png)
+![alt text](/assets/img/USE%20CASE%20DIAGRAM.png)
 
 ## Class Diagram
 
-![alt text](https://github.com/fd-col/prog-colleluori-camplese/blob/main/CLASS_DIAGRAM.png)
+![alt text](/assets/img/CLASS_DIAGRAM.png)
 
 ## Sequence Diagram
 
-![alt text](https://github.com/fd-col/prog-colleluori-camplese/blob/main/SEQUENCE_DIAGRAM_1.png)
+![alt text](/assets/img/SEQUENCE_DIAGRAM_1.png)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk0MDYyNzE4NiwxNzE3ODY0OTEwXX0=
 -->
