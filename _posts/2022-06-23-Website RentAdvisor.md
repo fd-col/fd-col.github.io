@@ -1,4 +1,4 @@
-# RentAdvisor
+# RentAdvisor website
 
   RentAvdvisor is our website name. Its purpose is to create a bridge between customers, tipically students, and rental owners.
 Basically, a new user can see the ads for apartments or beds in the home page. Then, is possible to subscribe and access more functionalities.
@@ -15,3 +15,10 @@ Briefly, the student can message with the owner and request accomodation by spec
 Lastly, the administrator is the one who care the website from an higher point of view; he/she can generate statistics about th website's usage and modify the FAQ section.
 
 <img alt="Statistiche dell'admin" src="https://github.com/fd-col/RentAdvisor/blob/main/Mock-ups/Statistiche_Admin.png" width="200" height="300" />
+
+<h2>Contributors</h2>
+<p><em>Paolo Cappelletti</em></p>
+<p><em>Andrea Civitarese</em></p>
+<p><em>Federico Colleluori</em></p>
+<p><em>Francesco Camplese</em></p>
+
