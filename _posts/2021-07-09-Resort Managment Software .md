@@ -1,5 +1,5 @@
 ---
-tags: [Python]
+tags: [Python, PyQt5,PyCharm]
 ---
 
 ## Resort Managment Software
