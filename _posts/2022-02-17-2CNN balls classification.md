@@ -13,6 +13,6 @@ Among all, 5 classes of these have been chosen: baseballs, basketballs, beach ba
 
   Before analyzing results we tested several configurations of hyperparameters of the network and we stayed with the best one. Then, we ploted the evolution of accuracy and we showed the confusion matrix to analyze the results.</p>
  
- <h2>Colleagues</h2>
+ <h2>Contributors</h2>
  <p><em>Alberto Melián Rodríguez</em></p>
  <p><em>Federico Colleluori</em></p>
