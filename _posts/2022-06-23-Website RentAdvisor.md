@@ -8,7 +8,8 @@ Basically, a new user can see the ads for apartments or beds in the home page. T
 We have 3 different accounts typologies: the student, the owner and the administrator of the website.
 Briefly, the student can message with the owner and request accomodation by specifing the period; while the owner can acept the request and stipulate a contract, as well as manage his ads in a personal page.
 
-<img alt="Visualizzazione prenotazione studente" src="https://github.com/fd-col/RentAdvisor/blob/main/Mock-ups/utente_visualizza_prenotazione.jpg" width="200" height="300" />
+<img alt="Dettagli annuncio studente" src="https://github.com/fd-col/RentAdvisor/blob/main/Mock-ups/Dettagli_annuncio_Studente_Livello2.png" width="200" height="300" />
+
 <img alt="Proprietario gestisci prenotazione" src="https://github.com/fd-col/RentAdvisor/blob/main/Mock-ups/Area_personale_proprietario_Livello1.png" width="200" height="300" />
 
 Lastly, the administrator is the one who care the website from an higher point of view; he/she can generate statistics about th website's usage and modify the FAQ section.
