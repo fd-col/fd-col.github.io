@@ -1,3 +1,7 @@
+---
+tags: [HTML,CSS,JS,JQuery,MySQL,PHP]
+---
+
 # RentAdvisor website
 
   RentAvdvisor is our website name. Its purpose is to create a bridge between customers, tipically students, and rental owners.
