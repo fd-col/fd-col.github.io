@@ -1,5 +1,6 @@
 # Framework for industrial sites
 
+
   The framework created is responsible for automating the tasks of monitoring and surveillance of safety conditions 
   within an Oil & Gas construction site. Drones are the tool used for collecting photos by capturing the current state 
   of work at a certain moment over time. Through the use of QGIS software and specific python classes, these images are 
@@ -7,11 +8,13 @@
   to the flight considered. The dataset for training models of one-dimensional convolutional neural networks (1D CNN) consists 
   of some of the flights already carried out by drones, and which present greater heterogeneity between classes. 
   
+  
   The ultimate goal is to create models that identify three different classes along the entire extension of the track works: 
   open-trench pipeline, closed-trench pipeline and pipe laying. Therefore, thanks to data augmentation techniques, customization
   of a class, optimization of hyperparameters and splitting of the dataset, it has been extended a pre-existing binary 
   classification to create a multi-class one. In the various experiments we wanted to generalize the cases analyzed on the same
   flight, on a different flight of the same construction site, and finally on the flight of another construction site. 
+  
   
   The results have shown excellent prediction accuracy levels for testing on a subset of the model training, and with some 
   marginal differences, for testing on different flights in the area of the construction site considered. 
