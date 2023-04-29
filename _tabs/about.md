@@ -4,7 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Computer Science degree and seasonal SUP instructor. 
+## Computer Science degree and seasonal SUP instructor. 
+
+### Enthusiastic, powerful, out of the box thinker. Always thirsting after something new. I'm used to workin detached or close-knit collaboration.
 
 > Currently in Switzerland for an internship about XR development.
 {: .prompt-tip }
