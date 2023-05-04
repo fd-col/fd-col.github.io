@@ -4,7 +4,10 @@ tags: [Unity,C#,Quest2]
 # IVR drills in Unity 3d
 
 ## Introduction
+This project is part of my internship in Switzerland and it is about Immersive Virtual Reality in a medical environment to create a realistic tool that simulates an emergency evacuation status.
 
+
+## Chapter 1
 
 ### Step 0
 Getting used to Unity editor and implementing new basic features inside the demo 3d game.
@@ -12,7 +15,10 @@ Getting used to Unity editor and implementing new basic features inside the demo
 ### Step 1
 Create a new project in order to improve fire and flood particle systems. The more realistc they are, the more engaging the drills will be. 
 
-## Step 2
+
+## Chapter 2
+
+### Step 2
 Adjust MidCoast hospital project details.
 
 ![hospital esterno](/assets/img/mid-coast-hospital.png)
@@ -38,4 +44,19 @@ Implement NPC (non-playable-character) clever movement in the surrounding enviro
 Add a startmenu to select the hazard as well as future options.
 ![startmenu](/assets/img/main-menu.png)
 
+### Step 6
+Short video where the player enter the hospital while NPCs are moving around the environment; then, the emergency simulation starts and the player starts looking for a safe area.
+[![](https://markdown-videos.deta.dev/youtube/XfwZfsfZNIY)](https://youtu.be/XfwZfsfZNIY)
 
+
+## Chapter 3
+
+### Step 7 
+Start working on the definitive hospital. First of all, I tried to familiarize myself with the previous work and the way objects are organized inside the Asset folder.
+
+### Step 8
+Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movements
+
+### Step 9
+
+Ajust and optimaze some hazards' feaetures.
