@@ -11,11 +11,11 @@ This project is part of my **internship in Switzerland** and it is about _Immers
 
 ### Step 0
 Getting used to Unity editor and implementing new basic features inside the demo 3d game.
-![Unity](unity.png)
+![Unity](/assets/img/unity.png)
 
 ### Step 1
 Create a new project in order to improve fire and flood particle systems. The more realistc they are, the more engaging the drills will be. 
-![URP first project](test_URP_fire_flood.png)
+![URP first project](/assets/img/test_URP_fire_flood.png)
 
 ## Chapter 2
 
@@ -60,7 +60,7 @@ Start working on the definitive hospital. First of all, I tidied up all the Asse
 ### Step 8
 Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movements.
 
-![navmesh_newHospital](navmesh_hospital.png)
+![navmesh_newHospital](/assets/img/navmesh_hospital.png)
 
 
 ### Step 9
