@@ -60,7 +60,7 @@ Start working on the definitive hospital. First of all, I tidied up all the Asse
 ### Step 8
 Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movements.
 
-![](navmesh_hospital.png)
+![navmesh_newHospital](navmesh_hospital.png)
 
 
 ### Step 9
