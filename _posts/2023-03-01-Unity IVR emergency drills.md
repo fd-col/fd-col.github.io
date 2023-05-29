@@ -64,7 +64,7 @@ Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movement
 
 
 ### Step 9
-Ajust and optimaze certain hazards' features, like: 
+Ajust and optimaze certain hazard features, like: 
   - fire and smoke spread among time and space
   - damage inflicted on the player entering the source of damage
   - add audio sources to fire
