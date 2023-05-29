@@ -64,6 +64,21 @@ Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movement
 
 
 ### Step 9
-Ajust and optimaze some hazards' feaetures.
+Ajust and optimaze certain hazards' features, like: 
+  - fire and smoke spread among time and space
+  - damage inflicted on the player entering the source of damage
+  - add audio sources to fire
+
+
+### Step 10 
+Redo and adapt the menu to the new features, like multi-player selection. I choose a circular menu with icons inside the buttons to make it Easy to use for the user. So, the game starts directly inside the hospital with the default options, and then the main menu is accessible by pressing the pause icon. The options included are:
+  1. Resume the game
+  2. Stop the game
+  3. Reload the game
+  4. Activate or Descativate NPC in the hospital
+  5. Choose which character you want to be 
+  6. Select the type of hazard you will encounter.
+
+
 
 
