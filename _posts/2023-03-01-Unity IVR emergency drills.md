@@ -71,14 +71,13 @@ Ajust and optimaze certain hazard features, like:
 
 
 ### Step 10 
-Redo and adapt the menu to the new features, like multi-player selection. I choose a circular menu with icons inside the buttons to make it Easy to use for the user. So, the game starts directly inside the hospital with the default options, and then the main menu is accessible by pressing the pause icon. The options included are:
+Redo and adapt the menu to the new features, like multi-player selection. I choose a circular menu with icons inside the buttons to make it easy to use. The game starts directly inside the hospital with the default options selected, and thanks to the main menu is possible to change them by pressing the pause icon on screen. The options included are:
   1. Resume the game
   2. Stop the game
   3. Reload the game
   4. Activate or Descativate NPC in the hospital
   5. Choose which character you want to be 
   6. Select the type of hazard you will encounter.
-
 
 
 
