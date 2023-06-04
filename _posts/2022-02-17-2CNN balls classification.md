@@ -6,7 +6,7 @@ tags: [CNN,Python,Google Colab]
 ## Introduction
 <p>The goal of this study was to create a simple CNN (Convolutional Neural Network) that could identify a specific dataset. </p>
 <hr>
-<p>The dataset has been choosen between those present on <a href="https://www.kaggle.com/">Kaggle</a>.
+<p>The dataset has been choosen between those present on <a href="https://www.kaggle.com/">Kaggle</a></p>.
 
 <p>Among all, 5 classes of these have been chosen: baseballs, basketballs, beach balls, billiard balls and bowling balls. In addition, some samples have been saved for verification.</p>
 
