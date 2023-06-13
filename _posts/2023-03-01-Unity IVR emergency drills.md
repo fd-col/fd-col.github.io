@@ -32,11 +32,11 @@ Import the particle systems created inside the [Mid Coast Hospital](https://www.
 ### Step 4
 Implement NPC (non-playable-character) clever movement in the surrounding environment.
   
-  1. avoid walls collision
-  2. declare some not-walkable areas (stairs, rooftop border, clinical rooms, entrance walls)
-  3. add a property to all doors (nav mesh obstacle) to stop collisons with them
-  4. on emergency signal: change NPC's behaviour and escape the damage sources (fire, water)
-  5. on emergency signal: follow the nearest emergency exits
+  - avoid walls collision
+  - declare some not-walkable areas (stairs, rooftop border, clinical rooms, entrance walls)
+  - add a property to all doors (nav mesh obstacle) to stop collisons with them
+  - on emergency signal: change NPC's behaviour and escape the damage sources (fire, water)
+  - on emergency signal: follow the nearest emergency exits
 
 ![nav obstacle](/assets/img/mid-coast-hospital-nav-mesh-obstacle.png)
 ![nav area](/assets/img/mid-coast-hospital-navigation-area.png)
@@ -71,6 +71,8 @@ Ajust and optimaze certain hazard features, like:
   - scratch the doors around the fires areas
   - add audio sources on fires
 
+![fire_drill](/assets/img/Unity-IVR-emergency-drills/hospital-fire-drill.png)
+![particle_trigger](/assets/img/Unity-IVR-emergency-drills/particle_system_trigger1.png)
 
 ### Step 10 
 Redo and adapt the menu to the new features, like multi-player selection. I choose a circular menu with icons inside the buttons to make it easy to use. The game starts directly inside the hospital with the default options selected, and thanks to the main menu is possible to change them by pressing the pause icon on screen. The options included are:
