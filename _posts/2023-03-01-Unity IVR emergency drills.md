@@ -65,9 +65,11 @@ Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movement
 
 ### Step 9
 Ajust and optimaze certain hazard features, like: 
-  - fire and smoke spread among time and space
+  - fire and smoke spreading among time and space
   - damage inflicted on the player entering the source of damage
-  - add audio sources to fire
+  - change smoke particle system color after collision
+  - scratch the doors around the fires areas
+  - add audio sources on fires
 
 
 ### Step 10 
@@ -79,5 +81,17 @@ Redo and adapt the menu to the new features, like multi-player selection. I choo
   5. Choose which character you want to be 
   6. Select the type of hazard you will encounter.
 
+![circular_menu_NPC](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu.png)
+![circular_menu_Player](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu1.png)
+![circular_menu_Hazard](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu2.png)
 
+### Step 11
+Occlusion culling feature implementation inside the simulation. 
+
+Occlusion culling is a process which prevents Unity from performing rendering calculations for GameObjects that are completely hidden from view (occluded) by other GameObjects.
+
+Every frame, Cameras perform culling operations that examine the Renderers in the Scene
+and exclude (cull) those that do not need to be drawn. By default, Cameras perform frustum culling, which excludes all Renderers that do not fall within the Camera’s view frustum. However, frustum culling does not check whether a Renderer is occluded by other GameObjects, and so Unity can still waste CPU and GPU time on rendering operations for Renderers that are not visible in the final frame. Occlusion culling stops Unity from performing these wasted operations.
+
+![occlusion_culling](/assets/img/Unity-IVR-emergency-drills/hospital-occlusion_culling.png)
 
