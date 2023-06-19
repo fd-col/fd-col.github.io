@@ -106,6 +106,7 @@ and exclude (cull) those that do not need to be drawn. By default, Cameras perfo
 ### Step 12
 Creating a Multi-Player simulation inside the hospital. The purpose is that each player could move indipendently in synchro with the others. 
 Unity has an high-level built-in networking library called Netcode. It is meant to abstract the networking logic for you.
+
 First of all, to use it in your project, it is necessary to import the library: open the package manager in the Unity Editor and click on the plus icon in the upper left corner of the window and then, on "Add package by name...". Now, write the "com.unity.netcode.gameobjects" link in the "name" label section and click "Add".
 You can follow this [Youtube Tutorial](https://www.youtube.com/watch?v=swIM2z6Foxk) to be sure you are doing it right.
 After you have impoted the library, you can use it by creating an empty GameObject and inserting a Network Manager script inside it. The default parameters are okay for now, just put the Unity Transport as Network Transport variable.
