@@ -113,7 +113,7 @@ After you have impoted the library, you can use it by creating an empty GameObje
 
 Additionaly, if you would like to spawn a player a move around the environment of your simulation, you need to create a prefab player and add it to the Player Prefab variable, inside the Network Manager GameObject. Remember to consequently attach a "Network Object" scrpit in order to synchronize the players. 
 
-Furthemore, you can include the following code [Start Network](/scripts/StartNetwork.cs) and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
+Furthemore, you can include the following code [Start Network](/assets/scripts/StartNetwork.cs) and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
 
 **Note**: it is possible to test your multiplayer game by adding an external library from github [ParrelSync library](https://github.com/VeriorPies/ParrelSync).
 
