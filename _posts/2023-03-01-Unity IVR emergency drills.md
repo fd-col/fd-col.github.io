@@ -87,6 +87,10 @@ Redo and adapt the menu to the new features, like multi-player selection. I choo
 ![circular_menu_Player](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu1.png)
 ![circular_menu_Hazard](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu2.png)
 
+**Note**: it is necessary to import the Oculus Integration to use the button on the Oculus's controllers
+![oculus_integration](/assets/img/Unity-IVR-emergency-drills/oculus-integration-package.png)
+Download it on [Oculus Integration on Unity Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022), fix the suggestions given by the Unity Editor, and add the code "OVRManager" inside an empty GameObject.
+
 ### Step 11
 Occlusion culling feature implementation inside the simulation. 
 
