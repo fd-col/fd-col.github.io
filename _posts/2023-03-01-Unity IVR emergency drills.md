@@ -101,3 +101,18 @@ and exclude (cull) those that do not need to be drawn. By default, Cameras perfo
 
 ![occlusion_culling](/assets/img/Unity-IVR-emergency-drills/hospital-occlusion_culling.png)
 
+## Chapter 4
+
+### Step 12
+Creating a Multi-Player simulation inside the hospital. The purpose is that each player could move indipendently in synchro with the others. 
+Unity has an high-level built-in networking library called Netcode. It is meant to abstract the networking logic for you.
+First of all, to use it in your project, it is necessary to import the library: open the package manager in the Unity Editor and click on the plus icon in the upper left corner of the window and then, on "Add package by name...". Now, write the "com.unity.netcode.gameobjects" link in the "name" label section and click "Add".
+You can follow this [Youtube Tutorial](https://www.youtube.com/watch?v=swIM2z6Foxk) to be sure you are doing it right.
+After you have impoted the library, you can use it by creating an empty GameObject and inserting a Network Manager script inside it. The default parameters are okay for now, just put the Unity Transport as Network Transport variable.
+
+Additionaly, if you would like to spawn a player a move around the environment of your simulation, you need to create a prefab player and add it to the Player Prefab variable, inside the Network Manager GameObject. Remember to consequently attach a "Network Object" scrpit in order to synchronize the players. 
+
+Furthemore, you can include the following code [Start Network](/scripts/StartNetwork.cs) and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
+
+**Note**: it is possible to test your multiplayer game by adding an external library from github [ParrelSync library](https://github.com/VeriorPies/ParrelSync)
+
