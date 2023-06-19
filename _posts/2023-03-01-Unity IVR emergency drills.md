@@ -87,7 +87,7 @@ Redo and adapt the menu to the new features, like multi-player selection. I choo
 ![circular_menu_Player](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu1.png)
 ![circular_menu_Hazard](/assets/img/Unity-IVR-emergency-drills/hospital-circular-menu2.png)
 
-**Note**: it is necessary to import the Oculus Integration to use the button on the Oculus's controllers
+**Note**: it is necessary to import the Oculus Integration to use the button on the Oculus controllers
 ![oculus_integration](/assets/img/Unity-IVR-emergency-drills/oculus-integration-package.png)
 Download it on [Oculus Integration on Unity Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022), fix the suggestions given by the Unity Editor, and add the code "OVRManager" inside an empty GameObject.
 
@@ -115,5 +115,5 @@ Additionaly, if you would like to spawn a player a move around the environment o
 
 Furthemore, you can include the following code [Start Network](/scripts/StartNetwork.cs) and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
 
-**Note**: it is possible to test your multiplayer game by adding an external library from github [ParrelSync library](https://github.com/VeriorPies/ParrelSync)
+**Note**: it is possible to test your multiplayer game by adding an external library from github [ParrelSync library](https://github.com/VeriorPies/ParrelSync).
 
