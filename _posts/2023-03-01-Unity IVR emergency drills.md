@@ -48,7 +48,7 @@ Add a startmenu to select the hazard as well as future options.
 ### Step 6
 Short video where the player enter the hospital while NPCs are moving around the environment; then, the emergency simulation starts and the player starts looking for a safe area.
 
-[[!](https://markdown-videos.deta.dev/youtube/XfwZfsfZNIY)](https://youtu.be/XfwZfsfZNIY)
+[![Watch the video demostration](https://markdown-videos.deta.dev/youtube/XfwZfsfZNIY)](https://youtu.be/XfwZfsfZNIY)
 
 
 ## Chapter 3
