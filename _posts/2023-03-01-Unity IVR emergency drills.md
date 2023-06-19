@@ -113,7 +113,29 @@ After you have impoted the library, you can use it by creating an empty GameObje
 
 Additionaly, if you would like to spawn a player a move around the environment of your simulation, you need to create a prefab player and add it to the Player Prefab variable, inside the Network Manager GameObject. Remember to consequently attach a "Network Object" scrpit in order to synchronize the players. 
 
-Furthemore, you can include the following code [Start Network](https://github.com/fd-col/fdcol.github.io/blob/main/assets/scripts/StartNetwork.cs) and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
+Furthemore, you can include the following code 
+```
+using Unity.Netcode;
+using UnityEngine;
+
+public class StartNetwork : MonoBehaviour
+{
+    public void StartHost()
+    {
+        NetworkManager.Singleton.StartHost();
+    }
+    public void StartServer()
+    {
+        NetworkManager.Singleton.StartServer();
+    }
+
+    public void StartClient()
+    {
+        NetworkManager.Singleton.StartClient();
+    }
+}
+```
+and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
 
 **Note**: it is possible to test your multiplayer game by adding an external library from github [ParrelSync library](https://github.com/VeriorPies/ParrelSync).
 
