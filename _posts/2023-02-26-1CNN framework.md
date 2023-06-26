@@ -28,4 +28,4 @@ tags: [CNN,Python,Google Colab,QGIS]
   datasets of two flights, brings an increase in overall predictions accuracy with less imbalance between the minority classes.
   </p>
 
-  [![Pdf_link](/assets/img/icon-pdf.png)][https://github.com/fd-col/fd-col.github.io/blob/main/assets/Tesi_Colleluori_UNIVPM.pdf]
+  ![Pdf_link](/assets/img/icon-pdf.png)(https://github.com/fd-col/fd-col.github.io/blob/main/assets/Tesi_Colleluori_UNIVPM.pdf)
