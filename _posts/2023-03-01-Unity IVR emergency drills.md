@@ -4,66 +4,66 @@ tags: [Unity,C#,Quest2,emergency,drills]
 # IVR drills in Unity 3d
 
 ## Introduction
-This project is part of my **internship in Switzerland** and it is about _Immersive Virtual Reality_ in a medical environment to create a realistic tool that simulates an emergency evacuation status.
+This project is part of my **internship in Switzerland** and it is about _Immersive Virtual Reality_ (IVR) in a medical environment to create a realistic tool that simulates an emergency evacuation status. Several are the applications for educational and training purposes. For example, it is possible to train the medical staff or the fire-fighters team with the hospital built in the IVR. Furthemore, it can be used for collecting data about visitors and patient behaviour in case of an emergency inside the building.
 
 
 ## Chapter 1
 
 ### Step 0
-Getting used to Unity editor and implementing new basic features inside the demo 3d game.
+Getting used to Unity editor by implementing basic features inside a 3D Unity game (take a look at [Lego Microgame](https://learn.unity.com/project/lego-template).
 ![Unity](/assets/img/unity.png)
 
 ### Step 1
-Create a new project in order to improve fire and flood particle systems. The more realistc they are, the more engaging the drills will be. 
+Create a new project in order to update the fires visual effects ([VFX](https://unity.com/visual-effect-graph) and the smokes particle systems. The more realistc they are, the more engaging the emergency drills will be. In order to achieve this results, I used the Universal Render Pipline by Unity.
 ![URP first project](/assets/img/test_URP_fire_flood.png)
 
 ## Chapter 2
 
 ### Step 2
-Adjust MidCoast hospital project details.
-
+Inject the previous VFX and particle systems created inside the [Mid Coast Hospital](https://www.midcoasthealth.com/) project, as well as made a few general changes, like the merge of repeated code and the set-up of game objects in the Unity Editor.
+In addition, some MidCoast hospital design details had been updated to enhance the simulation realism.
 ![hospital esterno](/assets/img/mid-coast-hospital.png)
 ![reception](/assets/img/mid-coast-hospital-reception.png)
 ![porte di emergenza](/assets/img/mid-coast-hospital-porte-emergenza.png)
 
 ### Step 3
-Import the particle systems created inside the [Mid Coast Hospital](https://www.midcoasthealth.com/) project, adjust it (change some graphics, organize folders) and optimize the coding section.
-
-### Step 4
 Implement NPC (non-playable-character) clever movement in the surrounding environment.
   
   - avoid walls collision
   - declare some not-walkable areas (stairs, rooftop border, clinical rooms, entrance walls)
   - add a property to all doors (nav mesh obstacle) to stop collisons with them
-  - on emergency signal: change NPC's behaviour and escape the damage sources (fire, water)
-  - on emergency signal: follow the nearest emergency exits
+  - on emergency signal:
+    
+    - change NPC's animation 
+    - follow an emergency exit
+    - avoid the damage sources (fires, smokes)
 
 ![nav obstacle](/assets/img/mid-coast-hospital-nav-mesh-obstacle.png)
 ![nav area](/assets/img/mid-coast-hospital-navigation-area.png)
 
-### Step 5
-Add a startmenu to select the hazard as well as future options.
+### Step 4
+Add a startmenu to select an hazard option and assign specific ending behaviour to tester NPCs.
 ![startmenu](/assets/img/main-menu.png)
 
-### Step 6
+**Note:** the final menu is the result of several attempt in order to provide the best experience for the users.
+
+### Step 5
 Short video where the player enter the hospital while NPCs are moving around the environment; then, the emergency simulation starts and the player starts looking for a safe area.
 
-[Watch the video demostration](https://youtu.be/XfwZfsfZNIY)
+[Watch on YouTube](https://youtu.be/XfwZfsfZNIY)
 
 
 ## Chapter 3
 
-### Step 7 
-Start working on the definitive hospital. First of all, I tidied up all the Asset folder and tried to understand well what I already had and what I would had to implement in the future.
+### Step 6 
+Start working on the definitive hospital. First of all, I tidied up all the Asset folders and I tried to have a good understanding of the hospital structure on the Unity Editor.
 
-
-### Step 8
+### Step 7
 Redo all the navMesh surfaces (Floor,Walls,Rooftop,etc.) to handle NPCs movements.
 
 ![navmesh_newHospital](/assets/img/navmesh_hospital.png)
 
-
-### Step 9
+### Step 8
 Ajust and optimaze certain hazard features, like: 
   - fire and smoke spreading among time and space
   - damage inflicted on the player entering the source of damage
@@ -74,7 +74,7 @@ Ajust and optimaze certain hazard features, like:
 ![fire_drill](/assets/img/Unity-IVR-emergency-drills/hospital-fire-drill.png)
 ![particle_trigger](/assets/img/Unity-IVR-emergency-drills/particle_system_trigger1.png)
 
-### Step 10 
+### Step 9 
 Redo and adapt the menu to the new features, like multi-player selection. I choose a circular menu with icons inside the buttons to make it easy to use. The game starts directly inside the hospital with the default options selected, and thanks to the main menu is possible to change them by pressing the pause icon on screen. The options included are:
   1. Resume the game
   2. Stop the game
@@ -91,7 +91,7 @@ Redo and adapt the menu to the new features, like multi-player selection. I choo
 ![oculus_integration](/assets/img/Unity-IVR-emergency-drills/oculus-integration-package.png)
 Download it on [Oculus Integration on Unity Asset Store](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022), fix the suggestions given by the Unity Editor, and add the code "OVRManager" inside an empty GameObject.
 
-### Step 11
+### Step 10
 Occlusion culling feature implementation inside the simulation. 
 
 Occlusion culling is a process which prevents Unity from performing rendering calculations for GameObjects that are completely hidden from view (occluded) by other GameObjects.
@@ -103,7 +103,7 @@ and exclude (cull) those that do not need to be drawn. By default, Cameras perfo
 
 ## Chapter 4
 
-### Step 12
+### Step 11
 Creating a Multi-Player simulation inside the hospital. The purpose is that each player could move indipendently in synchro with the others. 
 Unity has an high-level built-in networking library called Netcode. It is meant to abstract the networking logic for you.
 
