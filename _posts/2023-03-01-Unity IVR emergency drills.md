@@ -4,17 +4,22 @@ tags: [Unity,C#,Quest2,emergency,drills]
 # IVR drills in Unity 3d
 
 ## Introduction
-This project is part of my **internship in Switzerland** and it is about _Immersive Virtual Reality_ (IVR) in a medical environment to create a realistic tool that simulates an emergency evacuation status. Several are the applications for educational and training purposes. For example, it is possible to train the medical staff or the fire-fighters team with the hospital built in the IVR. Furthemore, it can be used for collecting data about visitors and patient behaviour in case of an emergency inside the building.
+This project is part of my **internship in Switzerland** and it is about _Immersive Virtual Reality_ (IVR) in a medical environment to create a realistic tool that simulates an emergency evacuation status. 
+
+Several are the applications for educational and training purposes. For example, it is possible to train the medical staff or the fire-fighters team with the hospital built in the IVR. 
+
+Furthemore, it can be used for collecting data about visitors and patient behaviour in case of an emergency inside the building.
 
 
 ## Chapter 1
 
 ### Step 0
-Getting used to Unity editor by implementing basic features inside a 3D Unity game (take a look at [Lego Microgame](https://learn.unity.com/project/lego-template).
+Getting used to Unity editor by implementing basic features inside a 3D Unity game (take a look at [Lego Microgame](https://learn.unity.com/project/lego-template)).
 ![Unity](/assets/img/unity.png)
 
 ### Step 1
-Create a new project in order to update the fires visual effects ([VFX](https://unity.com/visual-effect-graph) and the smokes particle systems. The more realistc they are, the more engaging the emergency drills will be. In order to achieve this results, I used the Universal Render Pipline by Unity.
+Create a new project in order to update the fires visual effects ([VFX](https://unity.com/visual-effect-graph)) and the smokes particle systems. The more realistc they are, the more engaging the emergency drills will be. In order to achieve this results, I used the Universal Render Pipeline implemented by Unity.
+
 ![URP first project](/assets/img/test_URP_fire_flood.png)
 
 ## Chapter 2
@@ -22,6 +27,7 @@ Create a new project in order to update the fires visual effects ([VFX](https://
 ### Step 2
 Inject the previous VFX and particle systems created inside the [Mid Coast Hospital](https://www.midcoasthealth.com/) project, as well as made a few general changes, like the merge of repeated code and the set-up of game objects in the Unity Editor.
 In addition, some MidCoast hospital design details had been updated to enhance the simulation realism.
+
 ![hospital esterno](/assets/img/mid-coast-hospital.png)
 ![reception](/assets/img/mid-coast-hospital-reception.png)
 ![porte di emergenza](/assets/img/mid-coast-hospital-porte-emergenza.png)
@@ -42,13 +48,14 @@ Implement NPC (non-playable-character) clever movement in the surrounding enviro
 ![nav area](/assets/img/mid-coast-hospital-navigation-area.png)
 
 ### Step 4
-Add a startmenu to select an hazard option and assign specific ending behaviour to tester NPCs.
+Add a startmenu to select an hazard option in order to assign specific ending behaviour to NPC testers.
+
 ![startmenu](/assets/img/main-menu.png)
 
-**Note:** the final menu is the result of several attempt in order to provide the best experience for the users.
+**Note:** the final menu is the result of several attempt that aim to supply the best experience for the users.
 
 ### Step 5
-Short video where the player enter the hospital while NPCs are moving around the environment; then, the emergency simulation starts and the player starts looking for a safe area.
+Short video where the player enter the hospital while NPCs are moving around the environment. Then, at a certain point, the emergency simulation clicks therefore the player and the NPCs start to look for a safe area.
 
 [Watch on YouTube](https://youtu.be/XfwZfsfZNIY)
 
