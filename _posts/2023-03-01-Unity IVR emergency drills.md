@@ -39,7 +39,6 @@ Implement NPC (non-playable-character) clever movement in the surrounding enviro
   - declare some not-walkable areas (stairs, rooftop border, clinical rooms, entrance walls)
   - add a property to all doors (nav mesh obstacle) to stop collisons with them
   - on emergency signal:
-    
     - change NPC's animation 
     - follow an emergency exit
     - avoid the damage sources (fires, smokes)
@@ -55,7 +54,7 @@ Add a startmenu to select an hazard option in order to assign specific ending be
 **Note:** the final menu is the result of several attempt that aim to supply the best experience for the users.
 
 ### Step 5
-Short video where the player enter the hospital while NPCs are moving around the environment. Then, at a certain point, the emergency simulation clicks therefore the player and the NPCs start to look for a safe area.
+Short video where the player enter the hospital while NPCs are moving around the environment. Then, at a certain point, the emergency simulation clicks, therefore the player and the NPCs start to look for a safe area.
 
 [Watch on YouTube](https://youtu.be/XfwZfsfZNIY)
 
