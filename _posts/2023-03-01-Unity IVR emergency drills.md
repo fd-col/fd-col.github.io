@@ -55,10 +55,7 @@ Add a startmenu to select an hazard option in order to assign specific ending be
 **Note:** the final menu is the result of several attempt that aim to supply the best experience for the users.
 
 ### Step 5
-Short video where the player enter the hospital while NPCs are moving around the environment. Then, at a certain point, the emergency simulation clicks, therefore the player and the NPCs start to look for a safe area.
-
-[Watch on YouTube](https://youtu.be/XfwZfsfZNIY)
-
+Short demo where the player enter the hospital while NPCs are moving around the environment. Then, at a certain point, the emergency simulation clicks, therefore the player and the NPCs start to look for a safe area.
 
 ## Chapter 3
 
