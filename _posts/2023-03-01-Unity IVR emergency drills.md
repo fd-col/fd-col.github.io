@@ -6,7 +6,7 @@ tags: [Unity,C#,Quest2,emergency,drills]
 ## Introduction
 This project is part of my **internship in Switzerland** and it is about _Immersive Virtual Reality_ (IVR) in a medical environment to create a realistic tool that simulates an emergency evacuation status. 
 
-Several are the applications for educational and training purposes. For example, it is possible to train the medical staff or the fire-fighters team with the hospital built in the IVR. 
+Several are the applications for educational and training purposes. For example, it is possible to train the medical staff or the fire\-fighters team with the hospital built in the IVR. 
 
 Furthemore, it can be used for collecting data about visitors and patient behaviour in case of an emergency inside the building.
 
@@ -15,17 +15,18 @@ Furthemore, it can be used for collecting data about visitors and patient behavi
 
 ### Step 0
 Getting used to Unity editor by implementing basic features inside a 3D Unity game (take a look at [Lego Microgame](https://learn.unity.com/project/lego-template)).
+
 ![Unity](/assets/img/unity.png)
 
 ### Step 1
-Create a new project in order to update the fires visual effects ([VFX](https://unity.com/visual-effect-graph)) and the smokes particle systems. The more realistc they are, the more engaging the emergency drills will be. In order to achieve this results, I used the Universal Render Pipeline implemented by Unity.
+Create a new project in order to update the fires visual effects ([VFX](https://unity.com/visual-effect-graph)) and the smokes particle systems. The more realistc they are, the more engaging the emergency drills will be. In order to achieve this results, I used the Universal Render Pipeline implemented (URP) by Unity.
 
 ![URP first project](/assets/img/test_URP_fire_flood.png)
 
 ## Chapter 2
 
 ### Step 2
-Inject the previous VFX and particle systems created inside the [Mid Coast Hospital](https://www.midcoasthealth.com/) project, as well as made a few general changes, like the merge of repeated code and the set-up of game objects in the Unity Editor.
+Inject the previous VFX and particle systems created inside the [Mid Coast Hospital](https://www.midcoasthealth.com/) project, as well as made a few general changes, like the merge of repeated code and the set\-up of game objects in the Unity Editor.
 In addition, some MidCoast hospital design details had been updated to enhance the simulation realism.
 
 ![hospital esterno](/assets/img/mid-coast-hospital.png)
@@ -33,10 +34,10 @@ In addition, some MidCoast hospital design details had been updated to enhance t
 ![porte di emergenza](/assets/img/mid-coast-hospital-porte-emergenza.png)
 
 ### Step 3
-Implement NPC (non-playable-character) clever movement in the surrounding environment.
+Implement NPC (non playable character) clever movement in the surrounding environment.
   
   - avoid walls collision
-  - declare some not-walkable areas (stairs, rooftop border, clinical rooms, entrance walls)
+  - declare some not\-walkable areas (stairs, rooftop border, clinical rooms, entrance walls)
   - add a property to all doors (nav mesh obstacle) to stop collisons with them
   - on emergency signal:
     - change NPC's animation 
@@ -81,7 +82,7 @@ Ajust and optimaze certain hazard features, like:
 ![particle_trigger](/assets/img/Unity-IVR-emergency-drills/particle_system_trigger1.png)
 
 ### Step 9 
-Redo and adapt the menu to the new features, like multi-player selection. I choose a circular menu with icons inside the buttons to make it easy to use. The game starts directly inside the hospital with the default options selected, and thanks to the main menu is possible to change them by pressing the pause icon on screen. The options included are:
+Redo and adapt the menu to the new features, like multi\-player selection. I choose a circular menu with icons inside the buttons to make it easy to use. The game starts directly inside the hospital with the default options selected, and thanks to the main menu is possible to change them by pressing the pause icon on screen. The options included are:
   1. Resume the game
   2. Stop the game
   3. Reload the game
