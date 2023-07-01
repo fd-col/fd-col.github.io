@@ -19,7 +19,19 @@ Briefly, the student can message with the owner and request accomodation by spec
 Apart of the mentioned student and owner access, there is a third account typology: the administrator of the website.\\
 The administrator is the one who can access the website from an higher point of view with the possibility to generate statistics about the website usage and to modify the dedicated FAQ section.
 
+### Note:
+
+To test the website on your pc, do the following steps:
+
+1. <a href="https://github.com/fd-col/RentAdvisor/archive/refs/heads/main.zip"> download ZIP</a> from github or <a href="https://github.com/fd-col/RentAdvisor">clone the repository</a>
+2. unZIP all the folder (if you download the ZIP)
+3. dowload <a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.2.34/xampp-windows-x64-7.2.34-2-VC15-installer.exe/download"> xamp version 7.2.34 </a>
+4. open xamp and start the Apache and mySQL modules.
+5. open a browser and paste the url <a href="http://localhost/public">http://localhost/publi</a>
+
 <img alt="Statistiche dell'admin" src="/assets/img/Statistiche_Admin.png" width="200" height="300" />
+
+<hr>
 
 <h2>Contributors</h2>
 <p><em>Cappelletti Paolo</em></p>
