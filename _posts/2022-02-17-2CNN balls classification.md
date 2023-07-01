@@ -1,14 +1,12 @@
 ---
-tags: [CNN,Python,Google Colab]
+tags: [CNN, Python, Google Colab]
 ---
 
-# <a href="https://github.com/fd-col/Neural-network-balls-clasificacion">2CNN balls classification</a>
-## Introduction
-<p>The goal of this study was to create a simple CNN (Convolutional Neural Network) that could identify a specific dataset. </p>
+<p>The goal of this study had been to create a simple CNN (Convolutional Neural Network) able to identify a specific dataset. </p>
 <hr>
-<p>The dataset has been choosen between those present on <a href="https://www.kaggle.com/">Kaggle</a></p>.
+<p>The dataset had been choosen among those present on <a href="https://www.kaggle.com/">Kaggle</a></p>.
 
-<p>Among all, 5 classes of these have been chosen: baseballs, basketballs, beach balls, billiard balls and bowling balls. In addition, some samples have been saved for verification.</p>
+<p>From the starting dataset, we extracted 5 classes related to different types of ball: baseballs, basketballs, beach balls, billiard balls and bowling balls. In addition, some samples were set aside for verification.</p>
 
 <img alt="Ball example" src="/assets/img/clasificador_bolas0.png" />
   

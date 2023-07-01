@@ -2,7 +2,6 @@
 tags: [API]
 ---
 
-<h1 id="weather-app"><a href="https://github.com/fd-col/Weather-App">Weather App</a></h1>
 <p>L’applicazione presente nella repository è una REST API in grado di fornire informazioni meteorologiche precedentemente salvate in un dataset che contiene: dati storici, attuali e previsioni future (tutte relative ad un periodo prestabilito).</p>
 <h3 id="dataset">Dataset</h3>
 <p>Il dataset, che contiene dati relativi alle città di Trieste, Ortona e Venezia, è costruito con due differenti modalità :</p>
@@ -182,14 +181,18 @@ La chiamata 8 ha il seguente body (sempre in JSON):
 ## Sequence Diagram
 
 ![alt text](/assets/img/SEQUENCE_DIAGRAM_1.png)
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk0MDYyNzE4NiwxNzE3ODY0OTEwXX0=
 -->
+
 ## Librerie esterne
+
 <p>Per il funzionamento dell'applicazione importare nell'IDE le seguenti librerie: - json-simple-1.1 - junit5.</p> 
-<p><em>Nota</em>: la libreria json-simple-1.1 è presente nei file della <a href="https://github.com/fd-col/Weather-App">repository</a>.</p> 
+<p><em>Nota</em>: la libreria json-simple-1.1 è presente nei file della <a href="https://github.com/fd-col/Weather-App">repository</a>.</p>
 
 ## Contributors:
+
 - Colleluori Federico 50%
 - Camplese Francesco 50%
 <!--stackedit_data:

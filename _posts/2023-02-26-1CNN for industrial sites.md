@@ -1,9 +1,6 @@
 ---
-tags: [CNN,Python,Google Colab,QGIS]
+tags: [CNN, Python, Google Colab, QGIS]
 ---
-
-# Framework for industrial sites
-
 
   <p>The framework created is responsible for automating the tasks of monitoring and surveillance of safety conditions 
   within an Oil & Gas construction site. Drones are the tool used for collecting photos by capturing the current state 
