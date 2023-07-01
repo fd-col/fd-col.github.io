@@ -2,11 +2,11 @@
 tags: [CNN, Python, Google Colab]
 ---
 
-<p>The goal of this study had been to create a simple CNN (Convolutional Neural Network) able to identify a specific dataset.</p>
+<p>The goal of this study had been to create a simple 2D CNN (Convolutional Neural Network) able to identify a specific dataset.<a href="https://colab.research.google.com/drive/1z3lFQiIUOwwh-Ly63diSyLRU8na3MfQB?usp=sharing"> Check it out on now</a>.</p>
 <hr>
 <p>The dataset had been choosen among those available for free on <a href="https://www.kaggle.com/">Kaggle</a>.</p>
 
-<p>From the starting dataset, we extracted <em>five classes</em> in relation to five different types of ball: baseballs, basketballs, beach balls, billiard balls and bowling balls. In addition, part of the samples were set aside for verification.</p>
+<p>From the starting dataset, we extracted <em>five classes</em> with reference to five different types of ball: baseballs, basketballs, beach balls, billiard balls and bowling balls. In addition, part of the samples were set aside for verification.</p>
 
 <img alt="Ball example" src="/assets/img/clasificador_bolas0.png" />
   
@@ -19,10 +19,7 @@ tags: [CNN, Python, Google Colab]
  
  <img alt="Result0" src="/assets/img/clasificador_bolas1.png" />
  <img alt="Result1" src="/assets/img/clasificador_bolas2.png" />
-
- <hr>
-
-## Contributors
-
+ 
+ ## Contributors
  <p><em>Alberto Melián Rodríguez</em></p>
  <p><em>Federico Colleluori</em></p>
