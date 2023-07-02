@@ -2,8 +2,6 @@
 tags: [HTML, CSS, JS, JQuery, MySQL, PHP]
 ---
 
-# RentAdvisor website
-
 RentAvdvisor website aims to create a bridge between students and rental owners.
 A new user can quickly take a look at the home page and surf the available apartments and beds in the website. Moreover the user has the option to subscribe and access more dedicated operations.
 In addition, the owner of a property can post an ad by doing the registration process or using the login.
