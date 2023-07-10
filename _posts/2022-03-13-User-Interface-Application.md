@@ -12,7 +12,8 @@ I worked in a team with 3 spanish students and we create a <a href="https://yout
 
 In the <a href="https://github.com/fd-col/fd-col.github.io/blob/main/assets/Memoria_trabajo_de_curso.pdf">documention</a> we present the app in its entirety. There are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained.
 
-**Note**
+### Note
+
 The videos and the doc are in spanish because the course was taken in the Canary Islands, Spain.
 
 ## Software:
