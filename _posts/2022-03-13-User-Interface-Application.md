@@ -8,7 +8,7 @@ During the semester lessons we had several small preparatory practices to achiev
 
 For the final assignment was design the UI for the future mobile application of the university.
 
-I worked in a team with 3 spanish students and we create a <a href="https://youtu.be/oFMNQ0rdJNg" target="_blank">prototype</a> for the UI of the app with a <a href="https://youtu.be/l7MbmNka6PQf" target="_blank">treaser</a>.
+I worked in a team with 3 spanish students and we create a <a href="https://youtu.be/oFMNQ0rdJNg">prototype</a> for the UI of the app with a <a href="https://youtu.be/l7MbmNka6PQf">treaser</a>.
 
 In the <a href="https://github.com/fd-col/fd-col.github.io/blob/main/assets/Memoria_trabajo_de_curso.pdf">documention</a> we present the app in its entirety. There are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained.
 
@@ -24,7 +24,7 @@ The videos and the doc are in spanish because the course was taken in the Canary
 
 ## Contributors
 
-- Jorge Rodrigo Blanco Antón
+- Jorge Rodrigo Blanco Anton
 - Federico Collelouri
 - Joel Navarro Rivero
-- Martín van Puffelen López
+- Martin van Puffelen Lopez
