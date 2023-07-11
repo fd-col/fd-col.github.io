@@ -10,7 +10,7 @@ For the final assignment was design the UI for the future mobile application of 
 
 I worked in a team with 3 spanish students and we create a <a href="https://youtu.be/oFMNQ0rdJNg" target="_blank">prototype</a> for the UI of the app with a <a href="https://youtu.be/l7MbmNka6PQf" target="_blank">treaser</a>.
 
-In the [documention]("/assets/Memoria_trabajo_de_curso.pdf") we present the app in its entirety. There are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained.
+In the [documention](https://github.com/fd-col/fd-col.github.io/blob/main/assets/Memoria_trabajo_de_curso.pdf) we present the app in its entirety. There are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained.
 
 #### Note
 The videos and the doc are in spanish because the course was taken in the Canary Islands, Spain.
