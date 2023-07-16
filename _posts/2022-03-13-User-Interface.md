@@ -12,7 +12,7 @@ I worked in a team with 3 spanish students and we create a [prototype](https://y
 
 In the documentation there are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained and the entire creation process is explained.
 
-#### Note
+## Note
 The videos and the doc are in spanish because the course was taken in the Canary Islands, Spain.
 
 ## Software:
