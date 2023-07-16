@@ -10,7 +10,7 @@ For the final assignment was design the UI for the future mobile application of 
 
 I worked in a team with 3 spanish students and we create a [prototype](https://youtu.be/oFMNQ0rdJNg) for the UI of the app with a [treaser](https://youtu.be/l7MbmNka6PQf).
 
-In the documentation there are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained and the entire creation process is explained.
+In the [documentation](https://github.com/fd-col/fd-col.github.io/blob/main/assets/Memoria_trabajo_de_curso.pdf) there are some use case scenarious with different people such as a professor, a local student, an international student, an administrative employee. It explains the evaluations examinated and the reuslt obtained and the entire creation process is explained.
 
 ## Note
 The videos and the doc are in spanish because the course was taken in the Canary Islands, Spain.
