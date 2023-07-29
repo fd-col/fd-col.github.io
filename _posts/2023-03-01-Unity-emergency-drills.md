@@ -113,7 +113,6 @@ Occlusion culling is a process which prevents Unity from performing rendering ca
 Every frame, Cameras perform culling operations that examine the Renderers in the Scene
 and exclude (cull) those that do not need to be drawn. By default, Cameras perform frustum culling, which excludes all Renderers that do not fall within the Camera’s view frustum. However, frustum culling does not check whether a Renderer is occluded by other GameObjects, and so Unity can still waste CPU and GPU time on rendering operations for Renderers that are not visible in the final frame. Occlusion culling stops Unity from performing these wasted operations.
 
-![occlusion_culling](/assets/img/Unity-IVR-emergency-drills/hospital-occlusion_culling.png)
 
 ## Chapter 4
 
@@ -155,3 +154,7 @@ public class StartNetwork : MonoBehaviour
 and directly start the simulation as host, server or client. You simply need to add a canvas with three buttons referred to the three functions inside the script "StartNetwork".
 
 **Note**: it is possible to test your multiplayer game by adding an external library from github [ParrelSync library](https://github.com/VeriorPies/ParrelSync).
+
+
+# Last Chapter
+For privacy reasons, the final doc and the project itself cannot be shared.
