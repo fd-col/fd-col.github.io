@@ -1,5 +1,5 @@
 ---
-tags: [CNN, Python, Google Colab]
+tags: [2DCNN, Python, Keras, Tensorflow, matplotlib, Google Colab]
 ---
 
 The goal of this study had been to create a simple 2D CNN (Convolutional Neural Network) able to identify a specific dataset.<a href="https://colab.research.google.com/drive/1z3lFQiIUOwwh-Ly63diSyLRU8na3MfQB?usp=sharing"> Check it out now</a>.

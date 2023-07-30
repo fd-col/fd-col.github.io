@@ -1,5 +1,6 @@
 ---
-tags: [CNN, Python, Google Colab, QGIS]
+tags:
+  [1DCNN, Python, Keras, Tensorflow, Sklearn, matplotlib, Google Colab, QGIS]
 ---
 
   <p>The framework created is responsible for automating the tasks of monitoring and surveillance of safety conditions 
