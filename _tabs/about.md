@@ -12,7 +12,7 @@ I have Computer Science and Automation degree in Polytechnic University of March
 
 Then, I spent five months in Switzerland as an intern to follow up a project about Extended Reality (XR) for the Applied Intelligent Agents Lab (AISLab) which applies Intelligent Agent and Multi-Agent techniques to healthcare.
 
-Now, I am looking forward to undertake an international master about IT subjects that I'm passionate about.
+Now, I am looking forward to undertake an international master about IT subjects that I am passionate about.
 
 > Personal website [link](https://fedemove.nicepage.io) (italian)
 > {: .prompt-tip }
