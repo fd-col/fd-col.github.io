@@ -4,16 +4,17 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## Computer Science degree and seasonal SUP instructor. 
+## Computer Science degree and seasonal SUP instructor.
 
-### Enthusiastic, powerful, out of the box thinker. Always thirsting after something new. I am used to work both in detached or close-knit collaboration.
+Enthusiastic, powerful, out of the box thinker. Always thirsting after something new. I am used to work both in detached or close-knit collaboration.
 
-> Currently in Switzerland for an internship about XR development.
-{: .prompt-tip }
+I have Computer Science and Automation degree in Polytechnic University of Marche in 2023 and after that I spent five months intership in Switzerland to follow up a project about Extended Reality (XR) for the Applied Intelligent Agents Lab (AISLab) which applies Intelligent Agent and Multi-Agent techniques to healthcare.
+
+> Personal website [link](https://fedemove.nicepage.io) (italian)
+> {: .prompt-tip }
 
 <img src="/assets/img/sevilla.jpg" width="280" height="350"/>
 
 <img src="/assets/img/visoreVR.png" width="280" height="300" />
 
 <img src="/assets/img/IMG_1009.JPG" width="280" height="300" />
-
