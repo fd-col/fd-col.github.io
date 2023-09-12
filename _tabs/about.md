@@ -10,7 +10,7 @@ Enthusiastic, powerful, out of the box thinker. Always thirsting after something
 
 I have Computer Science and Automation degree in Polytechnic University of Marche achieved in 2023.
 
-Then, I spent five months in Switzerland as an intern to follow up a project about Extended Reality (XR) for the Applied Intelligent Agents Lab (AISLab) which applies Intelligent Agent and Multi-Agent techniques to healthcare.
+Then, I spent five months in Switzerland as an intern to follow up a project about Extended Reality (XR) for the Applied Intelligent Agents Lab (AISLab) which applies Intelligent Agent and Multi Agent techniques to healthcare.
 
 Now, I am looking forward to undertake an international master about IT subjects that I am passionate about.
 
