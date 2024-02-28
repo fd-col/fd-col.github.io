@@ -32,5 +32,8 @@ consists of some of the flights already carried out by drones, and which present
   datasets of two flights, brings an increase in overall predictions accuracy with less imbalance between the minority classes.
 </p>
 
+  <p>Results links:</p>
+
 [Model training curves 5-8](/assets/img/volo5+8_1_curve.png)
+
 [Confusion matrix calculated on the dataset of flight 3, Zone A, with the model 5-8](/assets/img/volo3_model5_8_matrix.png)
