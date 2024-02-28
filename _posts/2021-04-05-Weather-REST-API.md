@@ -2,21 +2,21 @@
 tags: [API]
 ---
 
-<p>L’applicazione presente nella repository è una REST API in grado di fornire informazioni meteorologiche precedentemente salvate in un dataset che contiene: dati storici, attuali e previsioni future (tutte relative ad un periodo prestabilito).</p>
+<p>The application in the repository is a REST API that can provide weather information previously saved in a dataset that contains: historical, current, and future forecast data (all related to a predetermined period).</p>
 <h3 id="dataset">Dataset</h3>
-<p>Il dataset, che contiene dati relativi alle città di Trieste, Ortona e Venezia, è costruito con due differenti modalità :</p>
+<p>The dataset, which contains data for the cities of Trieste, Ortona and Venice, is constructed with two different :</p>
 <ul>
-<li>dati-attuali &amp; dati-storici vengono già parsati come oggetti JSONArray tramite la rotta “/save” dell’app SpringBoot</li>
-<li>previsioni-future sono raccolte dalla rispettiva  API di OpenWeather così come sono, mediante una chiamata al client Postman ( e successivamente parsate tramite l’app SpringBoot )</li>
+<li>dati-attuali (current data) &amp; dati-storici (historical data) are already parsed as JSONArray objects via the route “/save” of SpringBoot app</li>
+<li>previsioni-future (futures forecast) are collected from the respective OpenWeather API as is, via a call to the Postman client (and subsequently parsed via the SpringBoot app)</li>
 </ul>
-<h3 id="previsioni-dal-01012021-al-10012021">Previsioni dal 01/01/2021 al 10/01/2021</h3>
+<h3 id="previsioni-dal-01012021-al-10012021">Forecast from 01/01/2021 to 10/01/2021</h3>
 <ul>
-<li>dati storici :	  01/01 - 05/01</li>
-<li>dati attuali :	  06/01 - 10/01</li>
-<li>previsioni future : 06/01 - 10/01</li>
+<li>current data :	  01/01 - 05/01</li>
+<li>historical data :	  06/01 - 10/01</li>
+<li>future forecast: 06/01 - 10/01</li>
 </ul>
-<h2 id="formato-dei-dati-restituiti">Formato dei dati restituiti</h2>
-Metadati relativi ai dati del dataset :
+<h2 id="formato-dei-dati-restituiti">Format of returned data</h2>
+Metadata related to the dataset data :
 <pre><code>{
 "date": "2021-01-06 12:00:00",
 "visibility": 7000.0,
@@ -27,7 +27,7 @@ Metadati relativi ai dati del dataset :
 	}
  }
 </code></pre>
-<p>Metadati relativi ai dati delle statistiche sui dati storici:</p>
+<p>Metadata related to historical data statistics data:</p>
 <pre><code>{
 "visibilityStats": {
 	"visibilityMax": 10000.0,
@@ -43,7 +43,7 @@ Metadati relativi ai dati del dataset :
 	}
 }
 </code></pre>
-<p>Metadati relativi ai dati delle statistiche sulle previsioni future:</p>
+<p>Metadata related to future forecast statistics data:</p>
 <pre><code>{
     "attendibilità": {
         "speed": false,
@@ -54,47 +54,47 @@ Metadati relativi ai dati del dataset :
     "cityId": 3
 }
 </code></pre>
-<p>In particolare:</p>
+<p>In detail:</p>
 <ul>
-<li>“<strong>date</strong>” indica la data del giorno a cui fanno riferimento i dati riportati;</li>
-<li>“<strong>visibility</strong>” indica il valore numerico che esprime la visibilità relativa a quella città in quel giorno;</li>
-<li>“<strong>cityname</strong>” indica la città;</li>
-<li>“<strong>timeUnix</strong>” indica la data espressa in secondi a partire dal 1° gennaio 1970;</li>
-<li>“<strong>speed</strong>” indica il valore numerico che esprime la velocità del vento relativa a quella città in quel giorno;</li>
+<li>“<strong>date</strong>” indicates the date of the day to which the reported data refer;</li>
+<li>“<strong>visibility</strong>” indicates the numerical value expressing the visibility relative to that city on that day;</li>
+<li>“<strong>cityname</strong>” indicates the city;</li>
+<li>“<strong>timeUnix</strong>” indicates The date expressed in seconds as of January 1, 1970;</li>
+<li>“<strong>speed</strong>” indicates the numerical value expressing the wind speed relative to that city on that day;</li>
 </ul>
-<p>Considerando invece i metadati relativi alle statistiche sui dati storici:</p>
+<p>Considering instead the metadata related to historical data statistics:</p>
 <ul>
-<li>“<strong>visibilityMin</strong>”, “<strong>visibilityMax</strong>”, “<strong>visibilityAverage</strong>” e “<strong>visibilityVariance</strong>” indicano rispettivamente il valore minimo,  massimo, la media e la varianza delle visibilità dei giorni presi in considerazione.</li>
-<li>“<strong>speedMin</strong>”, “<strong>speedMax</strong>”, “<strong>speedAverage</strong>” e “<strong>speedVariance</strong>” indicano rispettivamente il valore minimo, massimo, la media e la varianza delle velocità del vento dei giorni presi in considerazione.</li>
+<li>“<strong>visibilityMin</strong>”, “<strong>visibilityMax</strong>”, “<strong>visibilityAverage</strong>” e “<strong>visibilityVariance</strong>” denote the minimum, maximum, mean, and variance, respectively, of the visibilities of the days considered.</li>
+<li>“<strong>speedMin</strong>”, “<strong>speedMax</strong>”, “<strong>speedAverage</strong>” e “<strong>speedVariance</strong>” indicate the minimum, maximum, mean, and variance of the wind speeds of the considered days, respectively.</li>
 </ul>
-<p>Considerando invece i metadati relativi alle statistiche sulle previsioni future:</p>
+<p>Considering instead the metadata related to future forecast statistics:</p>
 <ul>
-<li>“<strong>attendibilità</strong>” contiene la risposta sull'attendibilità delle previsioni future rispetto ai dati attuali.</li>
-<li>“<strong>speed</strong>”, “<strong>visibility</strong>” sono gli attributi di cui viene valutatat l'attendibilità delle previsioni future.</li>
-<li>“<strong>numeroGiorni</strong>” indica la quantità di giorni sulla quale vengono calcolate le statistiche.</li>
-<li>“<strong>soglia_errore</strong>” evidenzia qual è la soglia di errore del risultato.</li>
-<li>“<strong>cityId</strong>” indica il numero di rifermento della città scelta (1 per Trieste, 2 per Ortona e 3 per Venezia).</li>
+<li>“<strong>attendibilità</strong>” Contains the answer on the reliability of future forecasts compared to current data.</li>
+<li>“<strong>speed</strong>”, “<strong>visibility</strong>”Are the attributes of which the reliability of future forecasts is evaluated.</li>
+<li>“<strong>numeroGiorni</strong>” indicates the amount of days over which statistics are calculated.</li>
+<li>“<strong>soglia_errore</strong>” highlights what the error threshold of the result is.</li>
+<li>“<strong>cityId</strong>” indicates the reference number of the chosen city (1 for Trieste, 2 for Ortona, and 3 for Venice).</li>
 </ul>
-<h2 id="statistiche">Statistiche</h2>
+<h2 id="statistiche">Statistics</h2>
 <p>
 </p><p>
-Le statistiche che la REST API restituisce si distinguono in:</p>
+The statistics that the REST API returns are distinguished into:</p>
 <ul>
 <li>
-<p>statisticherelative ai dati storici (attraverso un file JSON vengono illustrati i valori descritti in precedenza, ovvero media, varianza, valori minimi e massimi). La città e il periodo da valutare vengono scelti dall’'utente.</p>
+<p>statistics related to historical data (through a JSON file the values described above, i.e., mean, variance, minimum and maximum values, are illustrated). The city and period to be evaluated are chosen by the user.</p>
 </li>
 <li>
 <p>
 </p></li></ul><ul>
 <li>
-statistiche relative ai dati futuri (attraverso un file JSON viene mostrato all’utente se le previsioni, in base ai dati raccolti, sono state attendibili oppure no). L’utente inoltre sceglierà la soglia di errore attraverso la quale si valuterà l’attendibilità.</li>
+statistics related to future data (through a JSON file, the user is shown whether the predictions, based on the collected data, were reliable or not). The user will also choose the error threshold through which the reliability will be evaluated.</li>
 </ul>
-<h2 id="rotte-dellapplicazione">Rotte dell’applicazione</h2>
+<h2 id="rotte-dellapplicazione">Application routes</h2>
 <table>
 <thead>
 <tr>
-<th>Tipo di chiamata</th>
-<th>Rotta</th>
+<th>Call type</th>
+<th>Route</th>
 </tr>
 </thead>
 <tbody>
@@ -133,32 +133,32 @@ statistiche relative ai dati futuri (attraverso un file JSON viene mostrato all�
 </tr>
 </tbody>
 </table><ol>
-<li>Restituisce all’utente i metadati relativi al dataset</li>
-<li>Restituisce all’utente i metadati relativi alle statistiche, sia storiche che future</li>
-<li>E’ servita per salvare i dati nel dataset<br>
-<em>Nota</em>: ciò che viene restituito da questa chiamata viene 		      sovrascritto nel dataset.</li>
-<li>Restituisce i dati attuali</li>
-<li>Restituisce i dati storici</li>
-<li>Restituisce le previsioni future</li>
-<li>Restituisce le statistiche fatte con i dati storici</li>
-<li>Restituisce le statistiche relative alle previsioni</li>
+<li>Returns to the user the metadata related to the dataset</li>
+<li>Returns metadata related to statistics, both historical and future, to the user</li>
+<li>It was used to save the data in the dataset<br>
+<em>Note</em>: what is returned by this call is overwritten in the dataset.</li>
+<li>Returns current data</li>
+<li>Returns historical data</li>
+<li>Returns future data</li>
+<li>Returns statistics made from historical data</li>
+<li>Returns statistics related to forecasts</li>
 </ol>
-<h2 id="filtri">Filtri</h2>
-<p>L’utente può filtrare i dati restituiti dalle chiamate scegliendo la/le città da restituire e il periodo da considerare.<br>
-Per le chiamate 4, 5 e 6 il body (in formato JSON) deve essere del tipo seguente:</p>
+<h2 id="filtri">Filters</h2>
+<p>The user can filter the data returned from the calls by choosing the city(ies) to return and the period to consider.<br>
+For calls 4, 5, and 6, the body (in JSON format) must be of the following type:</p>
 <pre><code>{
     "primaCitta": &lt;n1&gt;,
     "ultimaCitta": &lt;n2&gt;,
     "giornoIniziale": &lt;n3&gt;,
     "giornoFinale": &lt;n4&gt;
 }</code></pre>
-<p>I numeri <strong>n1</strong> e <strong>n2</strong> devono essere compresi tra 1 e 3 (1 per Trieste, 2 per Ortona e 3 per Venezia), in questo modo l’utente può scegliere quali città mostrare.<br>
-I numeri <strong>n3</strong> e <strong>n4</strong> invece devono essere compresi tra 1 e 5 ( giorni che vanno dal 01/01 al 05/01 per i dati storici, dal 06/01 al 10/01 per i dati attuali e dal 06/01 al 10/01 per le previsioni), così facendo l’utente può scegliere il periodo da considerare.</p>
-<p><em>Nota</em>: n2 deve essere necessariamente maggiore o uguale di n1 (quest’ultimo caso se si vuole considerare una sola città), così come n4 deve essere maggiore o uguale di n3.</p>
+<p>The numbers <strong>n1</strong> e <strong>n2</strong>must be between 1 and 3 (1 for Trieste, 2 for Ortona, and 3 for Venice), so the user can choose which cities to show.<br>
+The numbers <strong>n3</strong> e <strong>n4</strong> instead must be between 1 and 5 ( days ranging from 01/01 to 05/01 for historical data, 06/01 to 10/01 for current data, and 06/01 to 10/01 for forecasts), so by doing so the user can choose the period to be considered.</p>
+<p><em>Note</em>: n2 must necessarily be greater than or equal to n1 (the latter case if only one city is to be considered), just as n4 must be greater than or equal to n3.</p>
 <p>
 </p><p>
-Per la chiamata 7 si utilizza lo stesso body, ma in questo caso <strong>n1</strong> e <strong>n2</strong> devono essere uguali, in quanto le statistiche possono essere fatte solo per ogni singola città.</p><br>
-La chiamata 8 ha il seguente body (sempre in JSON):
+For call 7 the same body is used, but in this case <strong>n1</strong> e <strong>n2</strong> must be equal, as statistics can only be made for each individual city.</p><br>
+Call 8 has the following body (again in JSON):
 <pre><code>{
     "primaCitta": &lt;n1&gt;,
     "ultimaCitta": &lt;n2&gt;,
@@ -166,8 +166,8 @@ La chiamata 8 ha il seguente body (sempre in JSON):
     "giornoFinale": &lt;n4&gt;,
     "soglia_errore": &lt;n5&gt;
 }</code></pre>
-<p>Valgono gli stessi criteri di scelta per n1, n2, n3 e n4.<br>
-<strong>n5</strong> deve essere un numero compreso tra 0 e 100, e sta ad indicare la percentuale di soglia di errore.</p>
+<p>The same selection criteria apply for n1, n2, n3 e n4.<br>
+<strong>n5</strong> must be a number between 0 and 100, and it stands for the percentage of error threshold.</p>
 <h1 id="uml">UML</h1>
 
 ## Use Case Diagram
@@ -186,10 +186,10 @@ La chiamata 8 ha il seguente body (sempre in JSON):
 eyJoaXN0b3J5IjpbLTk0MDYyNzE4NiwxNzE3ODY0OTEwXX0=
 -->
 
-## Librerie esterne
+## External libraries
 
-<p>Per il funzionamento dell'applicazione importare nell'IDE le seguenti librerie: - json-simple-1.1 - junit5.</p> 
-<p><em>Nota</em>: la libreria json-simple-1.1 è presente nei file della <a href="https://github.com/fd-col/Weather-App">repository</a>.</p>
+<p>For the application to work, import the following libraries into the IDE: - json-simple-1.1 - junit5.</p> 
+<p><em>Note</em>: the library json-simple-1.1 is present in the files of the <a href="https://github.com/fd-col/Weather-App">repository</a>.</p>
 
 ## Contributors:
 
