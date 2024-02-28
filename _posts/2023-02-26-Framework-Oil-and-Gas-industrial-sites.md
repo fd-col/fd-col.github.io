@@ -6,14 +6,15 @@ tags:
   <p>The framework created is responsible for automating the tasks of monitoring and surveillance of safety conditions 
   within an Oil & Gas construction site. Drones are the tool used for collecting photos by capturing the current state 
   of work at a certain moment over time. 
-  
-  ![drone](/assets/img/senseFly.jpeg)
+  </p>
 
-Through the use of [QGIS software](https://qgis.org/en/site/) and specific python classes, these images are
-then processed in the pre-processing phase. It aims to create DSM profiles, that is a digital model of the surface relative
-to the flight considered. The dataset for training models of one-dimensional convolutional neural networks (1D CNN)
-consists of some of the flights already carried out by drones, and which present greater heterogeneity between classes.
+![drone](/assets/img/senseFly.jpeg)
 
+  <p>
+  Through the use of <a href="https://qgis.org/en/site/">QGIS software</a> and specific python classes, these images are
+  then processed in the pre-processing phase. It aims to create DSM profiles, that is a digital model of the surface relative
+  to the flight considered. The dataset for training models of one-dimensional convolutional neural networks (1D CNN)
+  consists of some of the flights already carried out by drones, and which present greater heterogeneity between classes.
   </p>
   
   <p>The ultimate goal is to create models that identify three different classes along the entire extension of the track works: open-trench pipeline, closed-trench pipeline and pipe laying. Therefore, thanks to data augmentation techniques, customization
